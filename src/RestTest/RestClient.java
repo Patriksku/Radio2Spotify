@@ -16,6 +16,6 @@ public class RestClient {
         String radioS = "http://api.sr.se/api/v2/playlists/rightnow?channelid=" + channelID;
 
         //Response message
-        return client.target(radioS).request().get();;
+        return client.target(radioS).request().get();
     }
 }
