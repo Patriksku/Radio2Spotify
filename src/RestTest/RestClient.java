@@ -1,4 +1,4 @@
-package Rest;
+package RestTest;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -15,8 +15,7 @@ public class RestClient {
 
         String radioS = "http://api.sr.se/api/v2/playlists/rightnow?channelid=" + channelID;
 
-        Response response = client.target(radioS).request().get();
-
-        return response;
+        //Response message
+        return client.target(radioS).request().get();;
     }
 }

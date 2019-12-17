@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Radio2Spotify">
+    <output-path>$PROJECT_DIR$/out/artifacts/Radio2Spotify</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Radio2Spotify/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Radio2Spotify" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

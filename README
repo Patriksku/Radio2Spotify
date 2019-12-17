@@ -1,0 +1,34 @@
+Kom ihåg att skriva kommentarer senare för det ni skapar i projektet :)
+
+Good-To-Know: Servern måste startas om efter varje ändring.
+
+När ni sedan ska uppdatera klasser på GitHub, skapa en egen branch var ni lägger upp era saker,
+så försöker vi merga allt med master-branchen efter varje commit.
+
+Projektstruktur:
+    "RestAPI":
+    Vår package med klasser som interagerar med de olika APIn.
+
+         "SR":
+         Klassen hanterar metoder/funktionalitet för SRs API.
+
+         "Spotify"
+         Klassen hanterar metoder/funktionalitet för Spotifys API.
+
+         "ChartLyrics":
+         Klassen hanterar metoder/funktionalitet för ChartLyrics API.
+
+    -------------------------------------------------------------------------------------------------------------
+
+    "RestTest":
+    Vår preliminära package för testfiler, så att man kan testa runt och se hur saker och ting fungerar.
+
+    Testfiler: RestClient, RestService, SimpleObject.
+    Länk: https://www.youtube.com/watch?v=dmMdLW92hBA
+
+    -------------------------------------------------------------------------------------------------------------
+
+    "XMLTools":
+    Vår package som innehåller metoder för modifiering av XML-filer som vi får från olika APIs.
+    Länk: https://www.mkyong.com/java/how-to-modify-xml-file-in-java-dom-parser/
+
